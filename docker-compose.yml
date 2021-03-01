@@ -1,0 +1,11 @@
+version: "3.2"
+
+services: 
+  onedev:
+    image: 1dev/server
+    container_name: onedev
+    ports:
+      - 6610:6610
+    volumes: 
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./onedev:/opt/onedev"
