@@ -19,4 +19,4 @@ Close the app:
 docker-compose down
 ```
 
-### This is not my project. The official version can be found here https://hub.docker.com/_/sonatype-nexus
+### This is not my project. The official version can be found here https://github.com/theonedev/onedev
